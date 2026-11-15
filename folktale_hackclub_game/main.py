@@ -240,7 +240,7 @@ def play_game():
                                     program_has_ran = False
                                     count = 0
                                     user_score = 0
-                                    continue
+                                    break
 
                         while True:
                             print()
