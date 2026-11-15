@@ -232,8 +232,10 @@ def play_game():
                                 if user_score >= 2:
                                     print(
                                         "\nFine, Player! \nYou have won! \nYou are free to go now.")
-                                    sys.exit(
+                                    print(
                                         "\nPOV: You are teleported out of the forest.\n")
+                                    sys.exit()
+                                    
                                 else:
                                     print(
                                         f"You Lost! Your score is {user_score}/3.")
