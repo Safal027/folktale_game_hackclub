@@ -78,7 +78,7 @@ def play_game():
             while room == "1":
                 if registered_3 == False:
                     print("\n || Welcome, Player! ||")
-                    print("\nIf you want to exit this cave, you must have to play my games and collect magic crystals which is used to open the other gate. \nAfter which you should defeat the boss inside the gate 2.")
+                    print("\nIf you want to exit this cave, you must have to play my games and collect magic crystals which are used to open the other gate. \nAfter which you should defeat the boss inside the gate 2.")
                     registered_3 = True
 
                 if should_play not in ["y", "n"]:
